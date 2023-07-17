@@ -1,0 +1,112 @@
+.sidebar{
+    margin: 0;
+    width: 243px;
+    height: 100vh;
+    background: purple;
+}
+.sidebar-container{
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-content{
+    padding: 0px;
+    margin: 15px 0;
+}
+.sidebar-content a{
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+}
+.sidebar-content a h4{
+    font-size: 13px;
+    padding: 8px;
+    text-decoration: none;
+}
+.sidebar-content a.active h4{
+    color: purple;
+    padding: 8px;
+    transition: 0.8s ease;
+    background: #fff;
+}
+.sidebar-content a.active h4:hover{
+border-radius: 9px;
+color: orange;
+}
+
+.student-reg{
+    padding:0;
+    width: 100%;
+    height: 100;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.student-reg-container{
+    width: 700px;
+    height: 500px;
+    background: #fff;
+}
+.student-reg-container:hover{
+    transition: 0.8s ease;
+    border-radius: 7px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.208);
+}
+.student-reg-header{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.115);
+}
+.profile-profile{
+    padding: 10px;
+    margin: auto;
+}
+.student-form-input{
+    padding: 10px;
+}
+.student-form-input label{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+}
+.student-form-input input{
+    width: 95%;
+    padding: 8px;
+    outline: none;
+    border-radius: 30px;
+    border:  1px solid rgba(0, 0, 0, 0.164);
+}
+.student-form-input input:hover{
+    transition: 0.6s ease;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.164);
+}
+.submit-btn{
+    width: 100%;
+    padding: 20px 10px;
+}
+.submit-btn button{
+    width: 95%;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    background: purple;
+    padding: 8px;
+}
+.submit-btn button:hover{
+    background: rgba(128, 0, 128, 0.596);
+}
+.student-reg-header span{
+    font-size: 14px; 
+    font-style: normal;
+    font-weight: 700;
+    padding: 0px 10px;
+}
+.student-reg-header{
+    font-size: 14px; 
+    font-style: italic;
+    font-weight: 500;
+    padding: 0px 10px;
+}
